@@ -87,6 +87,13 @@ body{
     border: 2px solid black;
 }
 
-.footer{
-    background-color: lightsalmon;
+
+footer{
+    display: flex;
+    justify-content:  space-between;
+  background-color: lightsalmon;
+}
+
+.footer_container{
+    width: 40%;
 }
