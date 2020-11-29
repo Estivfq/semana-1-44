@@ -5,6 +5,37 @@ body{
     margin-left: auto;
 }
 
+.header {
+    background-color: lightyellow;
+}
+
+.cabecera{
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.titulo-principal, .menu{
+    width: 50%;
+}
+
+.menu-principal{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.menu-principal__item > a{
+    text-decoration: none;
+}
+
+.menu-principal__item > a:hover{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+
+
 .servicios{
     display: flex;
     justify-content: space-around;
@@ -30,6 +61,19 @@ body{
     height: 240px;
 }
 
+.noticias{
+    background-color: lightgreen;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    border: 4px solid black;
+}
+
+.noticia{
+    display: flex;
+    border: 2px solid black;
+}
+
 .equipo{
     background-color: bisque;
     display: flex;
@@ -43,9 +87,11 @@ body{
     border: 2px solid black;
 }
 
+
 footer{
     display: flex;
     justify-content:  space-between;
+  background-color: lightsalmon;
 }
 
 .footer_container{

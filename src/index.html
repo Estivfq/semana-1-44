@@ -4,23 +4,23 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
-        <title>Mi primera página web</title>
+        <title>El Medio Ambiente</title>
     </head>
 
     <body>
         <!--Cabecera-->
-        <header>
+        <header class="header">
             <!--Navegador-->
-            <section>
-                <div>
-                    <h1>Mi primera página web</h1>
+            <section class="cabecera">
+                <div class="titulo-principal">
+                    <h1>El Medio Ambiente</h1>
                 </div>
-                <nav>
-                    <ul>
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#services">Servicios</a></li>
-                        <li><a href="#news">Noticias</a></li>
-                        <li><a href="#team">Equipo</a></li>
+                <nav class="menu">
+                    <ul class="menu-principal">
+                        <li class="menu-principal__item"><a href="#">Inicio</a></li>
+                        <li class="menu-principal__item"><a href="#services">Servicios</a></li>
+                        <li class="menu-principal__item"><a href="#news">Noticias</a></li>
+                        <li class="menu-principal__item"><a href="#team">Equipo</a></li>
                     </ul>
                 </nav>
             </section>
@@ -28,7 +28,7 @@
             
             <!--Banner-->
             <section>
-                <img src="https://placeimg.com/1200/300/any" alt="Banner">
+                <img src="https://placeimg.com/1200/300/nature" alt="Banner">
             </section>
             <!--Fin Banner-->
         </header>
@@ -63,21 +63,27 @@
             <!--Fin Sección de Servicios-->
             <hr>
             <!--Sección de Noticias-->
-            <section id="news">
+            <section id="news" class="noticias">
                 <!--Bloque 1-->
                 <div>
                     <!--Noticia 1-->
-                    <div>
-                        <img src="https://placeimg.com/300/400/any" alt="Noticia1">
-                        <p>Agregar texto</p>
-                        <a href="#"more></a>
+                    <div class="noticia">
+                        <img src="https://placeimg.com/300/400/nature" alt="Noticia1">
+                        <div>
+                            <h2>Calentamiento Global</h2>
+                            <p>Para más información ingresar al siguiente link.</p>
+                            <a href="#">more information</a>
+                        </div>
                     </div>
 
                     <!--Noticia 2-->
-                    <div>
-                        <img src="https://placeimg.com/300/400/any" alt="Noticia2">
-                        <p>Agregar texto</p>
-                        <a href="#"more></a>
+                    <div class="noticia">
+                        <img src="https://placeimg.com/300/400/nature" alt="Noticia2">
+                        <div>
+                            <h2>Deforestación del Amazonas</h2>
+                            <p>Para más información ingresar al siguiente link.</p>
+                            <a href="#">more information</a>
+                        </div>
                     </div>
                 </div>
                 <!--Fin Bloque 1-->
@@ -85,17 +91,23 @@
                 <!--Bloque 2-->
                 <div>
                     <!--Noticia 3-->
-                    <div>
-                        <img src="https://placeimg.com/300/400/any" alt="Noticia3">
-                        <p>Agregar texto</p>
-                        <a href="#"more></a>
+                    <div class="noticia">
+                        <img src="https://placeimg.com/300/400/nature" alt="Noticia3">
+                        <div>
+                            <h2>Nuevos Records en Temperaturas</h2>
+                            <p>Para más información ingresar al siguiente link.</p>
+                            <a href="#">more information</a>
+                        </div>
                     </div>
 
                     <!--Noticia 4-->
-                    <div>
-                        <img src="https://placeimg.com/300/400/people" alt="Noticia4">
-                        <p>Agregar texto</p>
-                        <a href="#"more></a>
+                    <div class="noticia">
+                        <img src="https://placeimg.com/300/400/nature" alt="Noticia4">
+                        <div>
+                            <h2>Deshielo en la Antartida</h2>
+                            <p>Para más información ingresar al siguiente link.</p>
+                            <a href="#">more information</a>
+                        </div>
                     </div>
                 </div>
                 <!--Fin Bloque 2-->
@@ -151,7 +163,7 @@
         <!--Fin Contenido Principal-->
 
         <!--Pie de Página-->
-        <footer>
+        <footer class="footer"
             <!--Footer 1-->
             <div class="footer_container">
                 <p>Esta página web está orientada a concientizar y dar herramientas que permita a las personas reaccionar adecuadamente al contexto medio-ambiental que vivimos. <a href="https://github.com/Estivfq/semana-1-44.git" target="_blank">Código fuente</a></p>
