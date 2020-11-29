@@ -1,0 +1,25 @@
+.servicios{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    background-color: #EBC754;
+    text-align: center;
+}
+
+.servicios__contenedor{
+    background-color: #5469EB;
+    width: 300px;
+    border-style: solid;
+    border-color: #192B9E;
+}
+
+.texto_servicios{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.servicio1-imagen{
+    background-image: url('./bg.png');
+    height: 240px;
+    /* margin-bottom: 20px; */
+}
