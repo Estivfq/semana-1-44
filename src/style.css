@@ -42,3 +42,12 @@ body{
     padding: 30px;
     border: 2px solid black;
 }
+
+footer{
+    display: flex;
+    justify-content:  space-between;
+}
+
+.footer_container{
+    width: 40%;
+}
