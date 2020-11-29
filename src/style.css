@@ -3,37 +3,63 @@ body{
     width: 1200px;
     margin-right: auto;
     margin-left: auto;
+    background-color: azure;
 }
 
-.header {
-    background-color: lightyellow;
+.contenedor{
+
+    -ms-flex-item-align: center;
+        align-self: center;
+}
+.container-menu{
+    height: 60px;
+    background-color: palegreen;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display:inline-flex;
+    margin-bottom: 5px;
+    width: 100%;
+    text-align: center;
+}
+.container-logo{
+    width: 100%;
+    height: inherit;
+    background-color: forestgreen;
+}
+.site-title{
+    margin: 0;
+    padding: 0.36em 0;
+}
+.container-imagen{
+    height: 240px;
+    position:relative;
+    /* margin-bottom: 20px; */
+}
+.container-imagen img{
+    width:100%;
+    height: 100%;
+}
+.nav-list{
+    padding: 0.25em 0;
+    list-style-type: none;
+    text-align: end;
+    width: 100%;
+}
+.main-menu__item{
+    line-height: 3;
+    display: inline-block;
 }
 
-.cabecera{
-    display: flex;
-    align-items: center;
-    height: 100px;
-}
-
-.titulo-principal, .menu{
-    width: 50%;
-}
-
-.menu-principal{
-    display: flex;
-    list-style: none;
-    justify-content: space-evenly;
-}
-
-.menu-principal__item > a{
+.main-menu__link{
     text-decoration: none;
+    font-size: 1em;
+    color: #3e3e3e;
 }
 
-.menu-principal__item > a:hover{
-    font-size: 20px;
+.main-menu__link:hover{
     text-decoration: underline;
+    font-weight: bold;
 }
-
 
 
 .servicios{
@@ -90,9 +116,9 @@ body{
 footer{
     display: flex;
     justify-content:  space-between;
-    background-color: lightsalmon;
+    background-color: rgb(157, 212, 62);
 }
 
 .footer_container{
-    width: 40%;
+    width: 30%;
 }
