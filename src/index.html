@@ -4,33 +4,47 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
-        <title>El Medio Ambiente</title>
+        <title>MEDIO AMBIENTE</title>
     </head>
 
     <body>
         <!--Cabecera-->
-        <header class="header">
+        <header>
             <!--Navegador-->
-            <section class="cabecera">
-                <div class="titulo-principal">
-                    <h1>El Medio Ambiente</h1>
-                </div>
-                <nav class="menu">
-                    <ul class="menu-principal">
-                        <li class="menu-principal__item"><a href="#">Inicio</a></li>
-                        <li class="menu-principal__item"><a href="#services">Servicios</a></li>
-                        <li class="menu-principal__item"><a href="#news">Noticias</a></li>
-                        <li class="menu-principal__item"><a href="#team">Equipo</a></li>
-                    </ul>
-                </nav>
-            </section>
-            <!--Fin Navegador-->
-            
-            <!--Banner-->
-            <section>
-                <img src="https://placeimg.com/1200/300/nature" alt="Banner">
-            </section>
-            <!--Fin Banner-->
+            <div class="contenedor">
+                <section class="container-menu">
+                    <div class="container-logo">
+                        <h1 class="site-title">EL MEDIO AMBIENTE ES DE TODOS</h1>
+                    </div>
+                    <div class="nav-list">
+                        <nav class="nav-list">
+                            <ul class="main-menu">
+                                <li class="main-menu__item">
+                                    <a class="main-menu__link" href="#">Inicio</a>
+                                </li>
+                                <li class="main-menu__item">
+                                    <a class="main-menu__link" href="#services">Servicios</a>
+                                </li>
+                                <li class="main-menu__item">
+                                    <a class="main-menu__link" href="#news">Noticias</a>
+                                </li>
+                                <li class="main-menu__item">
+                                    <a class="main-menu__link" href="#team">Equipo</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </section>
+                <!--Fin Navegador-->
+    
+                <!--Banner-->
+                <section>
+                    <div class="container-img">
+                        <img src="banner.jpg" alt="Banner">
+                    </div>
+                </section>
+                <!--Fin Banner-->
+            </div>
         </header>
         <!--Fin Cabecera-->
 
@@ -71,8 +85,11 @@
                         <img src="https://placeimg.com/300/400/nature" alt="Noticia1">
                         <div>
                             <h2>Calentamiento Global</h2>
-                            <p>Para más información ingresar al siguiente link.</p>
-                            <a href="#">more information</a>
+                            <p>
+                                El cambio climático avanza implacablemente a pesar de la pandemia COVID-19,
+                                advierten los científicos.
+                            </p>
+                            <a href="https://news.un.org/es/story/2020/09/1480142">More information</a>
                         </div>
                     </div>
 
@@ -81,13 +98,16 @@
                         <img src="https://placeimg.com/300/400/nature" alt="Noticia2">
                         <div>
                             <h2>Deforestación del Amazonas</h2>
-                            <p>Para más información ingresar al siguiente link.</p>
-                            <a href="#">more information</a>
+                            <p>
+                                La deforestación del Amazonas alcanza niveles históricos
+                                debido al consumo de carne.
+                            </p>
+                            <a href="https://www.nationalgeographic.es/medio-ambiente/2020/06/deforestacion-amazonas-alcanza-niveles-historicos-debido-consumo-carne">More information</a>
                         </div>
                     </div>
                 </div>
                 <!--Fin Bloque 1-->
-                
+        
                 <!--Bloque 2-->
                 <div>
                     <!--Noticia 3-->
@@ -95,8 +115,12 @@
                         <img src="https://placeimg.com/300/400/nature" alt="Noticia3">
                         <div>
                             <h2>Nuevos Records en Temperaturas</h2>
-                            <p>Para más información ingresar al siguiente link.</p>
-                            <a href="#">more information</a>
+                            <p>
+                                Se rompen dos nuevos records de calor.
+                                Las altas temperaturas fueron generadas por un sistema de alta presión
+                                en los niveles medios y altos de la atmósfera.
+                            </p>
+                            <a href="https://www.infobae.com/america/mexico/2020/09/24/agosto-rompio-dos-nuevos-records-de-calor-esta-temporada-smn/">More information</a>
                         </div>
                     </div>
 
@@ -104,16 +128,19 @@
                     <div class="noticia">
                         <img src="https://placeimg.com/300/400/nature" alt="Noticia4">
                         <div>
-                            <h2>Deshielo en la Antartida</h2>
-                            <p>Para más información ingresar al siguiente link.</p>
-                            <a href="#">more information</a>
+                            <h2>Deshielo en el Ártico</h2>
+                            <p>
+                                El brusco deshielo, así como los cambios en la hidrología del Ártico y las montañas,
+                                han modificado la frecuencia y la intensidad de las perturbaciones que sufren los ecosistemas.
+                            </p>
+                            <a href="https://news.un.org/es/story/2020/09/1480142">More information</a>
                         </div>
                     </div>
                 </div>
                 <!--Fin Bloque 2-->
             </section>
             <!--Fin Sección de Noticias-->
-
+            <hr>
             <!--Sección del Equipo-->
             <section id="team" class="equipo">
                 <!--Miembro 1-->
@@ -161,12 +188,17 @@
             <!--Fin Sección del Equipo-->
         </main>
         <!--Fin Contenido Principal-->
-
+        <hr>
         <!--Pie de Página-->
         <footer class="footer">
             <!--Footer 1-->
             <div class="footer_container">
-                <p>Esta página web está orientada a concientizar y dar herramientas que permita a las personas reaccionar adecuadamente al contexto medio-ambiental que vivimos. <a href="https://github.com/Estivfq/semana-1-44.git" target="_blank">Repositorio</a></p>
+                <p>
+                    Esta página web está orientada a concientizar
+                    y dar herramientas que permita a las personas reaccionar adecuadamente
+                    al contexto medio-ambiental en que vivimos.
+                </p>
+                <a href="https://github.com/Estivfq/semana-1-44.git" target="_blank">Repositorio</a>
             </div>
 
             <!--Footer 2-->
