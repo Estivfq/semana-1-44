@@ -28,7 +28,7 @@ body{
 .servicio1-imagen{
     background-image: url('./bg.png');
     height: 240px;
-    /* margin-bottom: 20px; */
+}
 
 .equipo{
     background-color: bisque;
